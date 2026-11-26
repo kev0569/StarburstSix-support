@@ -5,3 +5,13 @@
 @media(max-width:900px){.wrap{width:calc(100% - 40px)}.header{gap:20px;flex-wrap:wrap;padding:18px 0}.header nav{order:3;justify-content:flex-start;flex-basis:100%;gap:28px}.languages{margin-left:auto}.hero{gap:30px;padding:55px 0}.steps{gap:24px}.article-layout{gap:28px}.closing{padding:28px}.brand{font-size:.95rem}}
 @media(max-width:640px){.hero{grid-template-columns:1fr;gap:40px;padding:45px 0 58px;min-height:0}.hero h1{font-size:2.9rem}.game-illustration{max-width:410px;width:100%;justify-self:center}.lead{font-size:1.05rem}.steps{grid-template-columns:1fr;gap:24px}.step-number{margin-bottom:14px}.how{padding:45px 0}.how>h2{margin-bottom:30px}.closing{display:block;margin-bottom:50px}.text-link{display:inline-block;margin-top:22px;min-height:44px}.article-layout{grid-template-columns:1fr;padding-bottom:60px}.page-heading{padding:44px 0 25px}.page-heading h1{font-size:2.6rem}.contact{padding:22px}footer{flex-direction:column;gap:18px}.app-card{align-items:flex-start;gap:20px}.app-card>img{width:70px}.hub{padding:54px 0}.hub h1{font-size:2.7rem}.hub .app-card h2{font-size:1.7rem}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+.launch-hero{gap:clamp(30px,7vw,96px);min-height:0;padding-block:46px 56px}
+.launch-hero h1{margin-bottom:16px}.launch-hero .eyebrow{margin-bottom:12px}
+.launch-hero>div{min-width:0}
+.launch-hero .lead{margin-bottom:0}.launch-hero .tags{margin-block:16px 20px}
+.gameplay-preview{width:min(100%,280px);margin:0;justify-self:center;border:1px solid #3a4e6b;border-radius:25px;overflow:hidden;box-shadow:0 22px 64px #0007}
+.gameplay-preview img{display:block;width:100%;height:auto}
+.closing h3{margin:20px 0 8px}.closing .store-cta{flex-shrink:0}
+.app-card .store-cta{margin-bottom:16px}
+@media(max-width:640px){.launch-hero{grid-template-columns:minmax(0,1fr);gap:28px;padding-block:30px 44px}.launch-hero h1{font-size:clamp(2rem,9vw,2.9rem)}.launch-hero .lead{line-height:1.65}.gameplay-preview{width:min(78%,255px)}.closing .store-cta{margin-top:22px}}
